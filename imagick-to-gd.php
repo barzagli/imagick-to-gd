@@ -36,7 +36,7 @@ Copyright 2005-2015 Automattic, Inc.
 
 */
 
-// Checking if the plugin's name is the same of folder
+// Checking if the plugin's name is the same of folder's name and returns wordpress hook with the changes of images handler 
 
 
 add_action('add_action', 'absToPathExists');
