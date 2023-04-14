@@ -37,13 +37,7 @@ Copyright 2005-2015 Automattic, Inc.
 */
 
 // Checking if the plugin's name is the same of folder
-/*
-if ( ! defined('ABSPATH')){
-   
-   die;
 
-}
-*/
 
 add_action('add_action', 'absToPathExists');
 
@@ -58,10 +52,3 @@ function absToPathExitis(){
 }
 
 
-/*
-add_filter( 'wp_image_editors', 'imagick_to_gd' );
-function imagick_to_gd() {
-    return array( 'WP_Image_Editor_GD', 'WP_Image_Editor_Imagick' );
-}
-
-*/
